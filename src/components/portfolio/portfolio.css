@@ -27,6 +27,8 @@
 }
 
 .portfolio__item-cta {
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;

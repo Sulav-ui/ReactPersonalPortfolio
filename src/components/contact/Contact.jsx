@@ -3,6 +3,8 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {FaViber} from 'react-icons/fa'
+import { FaWhatsapp } from "react-icons/fa";
+
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
@@ -26,7 +28,7 @@ const Contact = () => {
         <article className='contact__option'>
           <MdOutlineEmail className='contact__option-icon'/>
           <h4>Email</h4>
-          <h5>choteyy10@gmail.com</h5>
+          <h5>ksulav10@gmail.com</h5>
           <a href="mailto:choteyy10@gmail.com" target='_blank'>Send a message</a>
         </article>
 
@@ -34,14 +36,15 @@ const Contact = () => {
           <RiMessengerLine className='contact__option-icon'/>
           <h4>Messenger</h4>
           <h5>Sulav Khatri</h5>
-          <a href="https://m.me/sulav.khatri.5283" target='_blank'>Send a message</a>
+          <a href="https://www.facebook.com/profile.php?id=61568046008646" target='_blank'>Send a message</a>
         </article>
 
         <article className='contact__option'>
-          <FaViber className='contact__option-icon'/>
-          <h4>Viber</h4>
-          <h5>+9779803759460</h5>
-          <a href="https://api.viber.com/send?phone+9779803759460" target='_blank'>Send a message</a>
+          
+          <FaWhatsapp className='contact__option-icon'/>
+          <h4>WhatsApp</h4>
+          <h5>+1 5162335176</h5>
+          <a href="https://wa.me/5162335176" target='_blank'>Send a message</a>
         </article>
       </div> 
       {/*END OF CONTACT OPTION  */}

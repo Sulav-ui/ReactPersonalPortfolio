@@ -2,7 +2,6 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -28,23 +27,14 @@ const About = () => {
                </article>
                
                <article className='about__card'>
-                 <FiUsers className='about__icon'/>
-                 <h5>Clients</h5>
-                 <small>50+ Worldwide</small>
-               </article>
-
-               <article className='about__card'>
                  <VscFolderLibrary className='about__icon'/>
                  <h5>Projects</h5>
-                 <small>10+ Completed</small>
+                 <small>3 Completed</small>
                </article>
-                
-               
-               
             </div>
             <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sit id voluptatibus odit, quia quod necessitatibus. Quasi in quae eaque ea, aliquam iusto consequatur veritatis doloremque dolores numquam optio eveniet.
-                </p>
+            I am a Symfony PHP developer with one year of experience, currently pursuing a Master’s in Cybersecurity with a focus on Data Analytics. With a strong foundation in backend development and system security, I am passionate about Full Stack Development and building secure, scalable applications. My goal is to integrate software engineering, data analytics, and cybersecurity to create innovative, high-performance solutions that bridge technology, security, and business needs.
+            </p>
                 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>
         
